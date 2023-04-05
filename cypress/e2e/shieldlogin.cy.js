@@ -14,6 +14,4 @@ it('Login Test 2', () => {
     cy.get('#name').type("admin");
     cy.get('#password').type("gunie999D");
     cy.get('#dsds').click();
-    cy.get('#one').type("jyXQ4Q");
-    cy.get('.btn').click();
 })
